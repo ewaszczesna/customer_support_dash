@@ -10,7 +10,7 @@ library(DT)
 library(scales)
 library(shinycssloaders)
 
-path <- '../dataset Data Analyst Tidio.csv'
+path <- 'dataset Data Analyst Tidio.csv'
 data <- setDT(read.csv(path))
 
 # add columns
