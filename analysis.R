@@ -4,7 +4,7 @@ library(plotly)
 library(lubridate)
 library(xlsx)
 
-path <- '../dataset Data Analyst Tidio.csv'
+path <- 'dataset Data Analyst Tidio.csv'
 data <- setDT(read.csv(path))
 
 #### add additional columns ####

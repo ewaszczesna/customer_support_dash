@@ -1,12 +1,5 @@
 ui <- dashboardPage(
-  dashboardHeader(title = "Customer Support",
-                  tags$li(
-                    class = "dropdown",
-                    tags$a(
-                      href = "#",
-                      tags$img(src = "tidio_logo.png"
-                      ))
-                  )
+  dashboardHeader(title = "Customer Support"
                   ),
   
   dashboardSidebar(
